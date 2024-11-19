@@ -1,5 +1,6 @@
 # PasswordGenerator
 A simple Password Generator written in Python
+![Screenshot of the Password Generator in Action](screenshot.png)
 
 ## How to run
 - Clone Repository `git clone git@github.com:AaronBeier/PasswordGenerator.git`
