@@ -10,7 +10,8 @@ A simple Password Generator written in Python
 - Run `python main.py`
 
 ## How to package
-- `pyinstaller --clean --onefile --noconsole --icon=NONE --optimize=2 main.py`
+- Install Requirements `pip install -r installer_requirements.txt`
+- Run PyInstaller `pyinstaller --clean --onefile --noconsole --icon=NONE --optimize=2 main.py`
 
 ## Known Issues
 - Icon does not work when exporting as a singular executable using PyInstaller
