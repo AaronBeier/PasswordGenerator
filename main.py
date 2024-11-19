@@ -5,7 +5,7 @@ from GeneratorWidget import GeneratorWidget
 if __name__ == "__main__":
     app = QtWidgets.QApplication([])
 
-    icon = QtGui.QIcon()
+    icon = QtGui.QIcon() # TODO: Does not work when exporting as a singular executable
     icon.addFile("icon.png") # Icon from Google Icons
 
     widget = GeneratorWidget()
